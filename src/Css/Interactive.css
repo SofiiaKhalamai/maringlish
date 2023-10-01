@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+
+* {
+  font-family: 'Mulish', sans-serif;
+  font-size: 28px;
+  color: var(--textColor);
+}
+
+:root {
+  --mainColor: #f392e6;
+  --mainColorBlue: #6cc6fe;
+  --secondaryColor: #bf0991;
+  --textColor: #222222;
+  --black: #222222;
+  --violet: #4b4e6d;
+}
+
+.container-interactive {
+  padding-top: 150px; 
+  margin-top: -150px; 
+  text-align: center;
+  background-image: url('../Images/background.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.title {
+  font-size: 34px;
+  margin-top: 20px;
+  font-weight: bold;
+  color: var(--violet);
+}
+
+.heart-icon {
+  width: 200px;
+  height: 200px;
+}
+
+.container-interactive p {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.container-interactive .row {
+  margin-top: 40px;
+}
+
+.container-interactive .row .col {
+  margin-bottom: 20px;
+}
+
+.container-interactive .row .col .interactive-info {
+  text-align: justify;
+}
