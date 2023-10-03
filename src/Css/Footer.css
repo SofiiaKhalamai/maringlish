@@ -7,9 +7,7 @@
 }
 
 :root {
-  --mainColor: #f392e6;
   --mainColorBlue: #6cc6fe;
-  --secondaryColor: #bf0991;
   --textColor: #222222;
   --black: #222222;
   --violet: #4b4e6d;
@@ -19,7 +17,7 @@
   padding-left: 2rem; 
   padding-right: 2rem;
   padding-top: 1rem;
-  background-color: var(--mainColor);
+  background-color: rgb(251, 191, 243);
 }
 
 .sb__footer {

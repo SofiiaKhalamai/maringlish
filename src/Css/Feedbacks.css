@@ -9,7 +9,6 @@
 :root {
 	--mainColor: #f392e6;
 	--mainColorBlue: #6cc6fe;
-	--secondaryColor: #bf0991;
 	--textColor: #222222;
   --orange: #f5bd9c;
 
@@ -138,7 +137,7 @@
 .wavy-line {
   height: 50px;
   width: 100%;
-  background-image: url('../Images/wavy-line.png'); 
+  background-image: url('../img/wavy-line.png'); 
   background-repeat: repeat-x;
   background-size: contain;
   background-position: bottom;

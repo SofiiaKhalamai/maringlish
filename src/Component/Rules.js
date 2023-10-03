@@ -1,9 +1,9 @@
 import React from 'react';
-import lessonCancellation from '../Images/lesson-cancellation.png';
-import lessonRescheduling from '../Images/lesson-rescheduling.png';
-import learningPackages from '../Images/learning-packages.png';
-import absentStudent from '../Images/absent-student.png';
-import "../Css/Rules.css";
+import lessonCancellation from '../img/lesson-cancellation.png';
+import lessonRescheduling from '../img/lesson-rescheduling.png';
+import learningPackages from '../img/learning-packages.png';
+import absentStudent from '../img/absent-student.png';
+import "../css/Rules.css";
 
 const Rules = () => {
   return (

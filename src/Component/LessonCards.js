@@ -1,5 +1,5 @@
 import React from 'react';
-import "../Css/LessonCards.css";
+import "../css/LessonCards.css";
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPerson, faPeopleArrows, faPeopleGroup, faHeartMusicCameraBolt } from '@fortawesome/free-solid-svg-icons';

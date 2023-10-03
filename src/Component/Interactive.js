@@ -1,8 +1,8 @@
 import React from 'react';
-import heart from '../Images/heart.png';
+import heart from '../img/heart.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInfoCircle } from '@fortawesome/free-solid-svg-icons';
-import "../Css/Interactive.css";
+import "../css/Interactive.css";
 
 const Interactive=()=>{
   return(

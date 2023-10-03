@@ -2,16 +2,15 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import '../Css/Feedbacks.css';
-import photo_marina from '../Images/feedbacks/photo_marina.jpg';
-import photo_christina from '../Images/feedbacks/photo_christina.jpg';
-import photo_anna from '../Images/feedbacks/photo_anna.jpg';
-import photo_anastasia from '../Images/feedbacks/photo_anastasia.jpg';
-import marina_feedback_1 from '../Images/feedbacks/marina_feedback.png';
-import comment_blue from '../Images/feedbacks/4338295-3a93fcf9.png';
-import comment_purple from '../Images/feedbacks/4338295-650ead52.png';
-import comment_yellow from '../Images/feedbacks/4338295-e0705ab2.png'
-import comment_black from '../Images/feedbacks/4338295.png'
+import '../css/Feedbacks.css';
+import photo_marina from '../img/feedbacks/photo_marina.jpg';
+import photo_christina from '../img/feedbacks/photo_christina.jpg';
+import photo_anna from '../img/feedbacks/photo_anna.jpg';
+import photo_anastasia from '../img/feedbacks/photo_anastasia.jpg';
+import comment_blue from '../img/feedbacks/4338295-3a93fcf9.png';
+import comment_purple from '../img/feedbacks/4338295-650ead52.png';
+import comment_yellow from '../img/feedbacks/4338295-e0705ab2.png'
+import comment_black from '../img/feedbacks/4338295.png'
 
 
 const Feedbacks = () => {

@@ -12,7 +12,6 @@
 :root {
 	--mainColor: #f392e6;
 	--mainColorBlue: #6cc6fe;
-	--secondaryColor: #bf0991;
 	--textColor: #222222;
 
   --black: #222222;
@@ -20,7 +19,7 @@
 }
 
 .background {
-  background-image: url('../Images/background.png');
+  background-image: url('../img/background.png');
   background-size: cover;
   background-position: center;
 }

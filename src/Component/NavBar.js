@@ -1,9 +1,9 @@
 import React from 'react';
-import logo from '../Images/logo.png';
+import logo from '../img/logo.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {FaBars, FaTimes} from "react-icons/fa"
 import { useRef } from "react";
-import "../Css/NavBar.css";
+import "../css/NavBar.css";
 
 function Navbar() {
 	const navRef = useRef();

@@ -1,14 +1,15 @@
 import React from 'react';
-import '../Css/CoursesInfo.css';
+import '../css/CoursesInfo.css';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import bigGroup from '../Images/courses/big-group.jpg';
-import miniGroup from '../Images/courses/mini-group.jpg';
-import individual from '../Images/courses/individual.jpg';
-import couples from '../Images/courses/couples.jpg';
-import speakingClub from '../Images/courses/speaking-club.jpg';
-import important from '../Images/courses/important.png';
+import bigGroup from '../img/courses/big-group.jpg';
+import miniGroup from '../img/courses/mini-group.jpg';
+import individual from '../img/courses/individual.jpg';
+import couples from '../img/courses/couples.jpg';
+import speakingClub from '../img/courses/speaking-club.jpg';
+import important from '../img/courses/important.png';
+import BackNavBar from './BackNavBar';
 
 const CoursesInfo=()=>{
   const searchParams = new URLSearchParams(window.location.search);
@@ -27,6 +28,7 @@ const CoursesInfo=()=>{
 
   return(
     <>
+    <BackNavBar /> 
     <div className='course-container'>
     <br />
     <br />
