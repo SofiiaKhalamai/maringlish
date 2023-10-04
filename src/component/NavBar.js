@@ -17,7 +17,7 @@ function Navbar() {
 	return (
 		<header>
 			<a href="/">
-      	<img src={logo} width="150" height="150" class="d-inline-block align-middle mr-4"/>
+      	<img src={logo} class="d-inline-block align-middle mr-4"/>
 			</a>
 			<nav ref={navRef}>
 				<a href="#courses">Курси</a>
