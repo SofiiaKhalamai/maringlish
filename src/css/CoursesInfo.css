@@ -100,32 +100,68 @@
   font-size: 20px; 
 }
 
+/* Добавьте следующие стили для мобильных устройств */
 @media (max-width: 768px) {
+  .course-container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
   .course-content {
     flex-direction: column;
     text-align: center;
+    margin-left: 0;
   }
-  
+
   .course-image {
     margin-right: 0;
     margin-bottom: 20px;
   }
-  
+
   .course-image img {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
   }
-  
+
   .course-benefit {
     margin-top: 20px;
     text-align: center;
+  }
+
+  .additional-info {
+    flex-direction: column;
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .specific-rules {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .important-icon {
+    width: 150px;
+    height: 150px;
+  }
+
+  .price-packages {
+    text-align: center;
+  }
+
+  .trial-lesson-btn {
+    margin-left: 0;
+  }
+
+  .trial-lesson-btn a.btn {
+    transform: none;
   }
 }
 
 @media (max-width: 480px) {
   .course-image img {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
   }
 }
+
 
