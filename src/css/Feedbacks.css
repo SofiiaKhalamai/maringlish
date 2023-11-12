@@ -26,6 +26,15 @@
   z-index: -1; 
 }
 
+.feedback-details .show-more {
+  background: none;
+  border: none;
+  color: var(--textBlack); 
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 0;
+}
+
 .feedback-image img {
   width: 400px;
   height: 400px;

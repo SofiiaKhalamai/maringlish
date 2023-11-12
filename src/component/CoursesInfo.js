@@ -91,6 +91,15 @@ const CoursesInfo=()=>{
         </div> 
       </div>
 
+
+
+
+
+
+
+
+
+
       <div className="course-slide">
           <div className="course-content">
             <div className="course-benefit">
