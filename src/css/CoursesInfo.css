@@ -15,7 +15,7 @@
   margin-right: 30px;
 }
 
-.course-image img {
+.course-image {
   width: 490px;
   height: 350px;
   object-fit: cover;
@@ -48,14 +48,14 @@
 }
 
 @media (max-width: 768px) {
-  .course-image img {
+  .course-image {
     width: 392px;
     height: 280px;
   }
 }
 
 @media (max-width: 480px) {
-  .course-image img {
+  .course-image {
     width: 392px;
     height: 280px;
   }

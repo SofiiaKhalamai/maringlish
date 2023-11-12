@@ -53,7 +53,7 @@ const CoursesInfo=()=>{
                   </ul>
                 </div>
                 <div class="col">
-                  <img src={miniGroup} alt="" />
+                  <img className="course-image" src={miniGroup} alt="" />
                 </div>
               </div>
             </div>
@@ -105,7 +105,7 @@ const CoursesInfo=()=>{
                   </ul>
                 </div>
                 <div class="col">
-                  <img src={miniGroup} alt="" />
+                  <img className="course-image" src={miniGroup} alt="" />
                 </div>
               </div>
             </div>
