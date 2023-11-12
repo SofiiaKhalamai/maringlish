@@ -1,23 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
-
-* {
-  font-family: 'Mulish', sans-serif;
-  font-size: 25px;
-  color: var(--textColor);
-}
-
-:root {
-  --mainColorBlue: #6cc6fe;
-  --textColor: #222222;
-  --black: #222222;
-  --violet: #4b4e6d;
-}
-
 .footer { 
+  font-size: 18px;
   padding-left: 2rem; 
   padding-right: 2rem;
   padding-top: 1rem;
-  background-color: rgb(251, 191, 243);
+  background-color: #f6d1f1;
 }
 
 .sb__footer {

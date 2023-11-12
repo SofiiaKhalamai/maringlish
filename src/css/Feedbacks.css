@@ -1,23 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
-
-* {
-  font-family: 'Mulish', sans-serif;
-  font-size: 25px;
-	color: var(--textColor);
-}
-
-:root {
-	--mainColor: #f392e6;
-	--mainColorBlue: #6cc6fe;
-	--secondaryColor: #bf0991;
-	--textColor: #222222;
-  --orange: #f5bd9c;
-
-  --black: #222222;
-  --violet: #4b4e6d;
-}
-
 .feedback {
+  font-size: 18px;
+  background-color: var(--backgroundColor);
   padding-top: 80px; 
   margin-top: -80px; 
 }
@@ -35,19 +18,20 @@
   justify-content: center;
   flex-direction: row;
   text-align: center;
+  padding-left: 80px;
 }
 
 .feedback-image {
-  padding-left: 80px;
   margin-right: 50px;
   z-index: -1; 
 }
 
 .feedback-image img {
-  width: 600px;
-  height: 600px;
+  width: 400px;
+  height: 400px;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 10%;
+  margin-bottom: 10px;
 }
 
 .feedback-details .container {
@@ -68,8 +52,8 @@
 }
 
 .feedback-details img {
-  width: 50px; 
-  height: 50px; 
+  width: px; 
+  height: 40px; 
   display: block;
   margin: 0 auto 10px;
 }
@@ -94,8 +78,8 @@
   display: inline-block;
   width: 30px;
   height: 30px;
-  border-top: 6px solid var(--secondaryColor);
-  border-right: 6px solid var(--secondaryColor);
+  border-top: 6px solid var(--fuccia);
+  border-right: 6px solid var(--fuccia);
   transform: rotate(45deg);
 }
 
@@ -115,7 +99,7 @@
 
 .slick-prev:hover:before,
 .slick-next:hover:before {
-  border-color: var(--secondaryColor);
+  border-color: var(--fuccia);
 }
 
 .slick-dots li button:before {
@@ -125,7 +109,7 @@
 .button-container {
   display: flex;
   justify-content: flex-end;
-  margin-top: auto;
+  margin-top: 20px;
   margin-right: 100px;
   margin-bottom: 0;
   padding-bottom: 50px; 
@@ -133,21 +117,20 @@
 
 .button-container a.btn {
   transform: none;
+  background-color: var(--purple); 
+  color: var(--textBlack); 
 }
 
-.wavy-line {
-  height: 50px;
-  width: 100%;
-  background-image: url('../img/wavy-line.png'); 
-  background-repeat: repeat-x;
-  background-size: contain;
-  background-position: bottom;
+.button-container a.btn:hover {
+  background-color: var(--purple)
 }
 
 @media (max-width: 768px) {
   .feedback-content {
     flex-direction: column;
     text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
   }
   
   .feedback-image {
@@ -156,8 +139,8 @@
   }
   
   .feedback-image img {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
   }
   
   .button-container {
@@ -174,8 +157,10 @@
 
 @media (max-width: 480px) {
   .feedback-image img {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
+    padding-left: 5px;
+    padding-right: 5px;
   }
   
   .button-container {

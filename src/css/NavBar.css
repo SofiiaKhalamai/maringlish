@@ -1,25 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
-
-* {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-  font-family: 'Mulish', sans-serif;
-  font-size: 25px;
-	color: var(--textColor);
-}
-
-:root {
-	--mainColor: rgb(251, 191, 243);
-	--mainColorBlue: #6cc6fe;
-	--secondaryColor: #bf0991;
-	--textColor: #222222;
-
-  --black: #222222;
-  --violet: #4b4e6d;
-}
-
 header {
+	font-size: 22px;
 	position: fixed;
 	width: 100%;
 	display: flex;
@@ -27,7 +7,7 @@ header {
 	justify-content: space-between;
 	height: 150px;
 	padding: 0 2rem;
-	background-color: #fbbff3;
+	background-color: #f6d1f1;
 	z-index: 1; 
 }
 
@@ -36,13 +16,13 @@ header img {
   height: 150px; 
 }
 
-nav a {
+nav a.navigation {
 	margin: 0 1rem;
 	text-decoration: none;
 }
 
-nav a:hover {
-	color: var(--secondaryColor);
+nav a.navigation:hover {
+	color: var(--fuccia);
 }
 
 header .nav-btn {
@@ -60,6 +40,19 @@ header div,
 nav {
 	display: flex;
 	align-items: center;
+}
+
+a.btn {
+	font-size: 22px;
+  transform: none;
+  background-color: var(--purple); 
+  color: var(--textBlack); 
+}
+
+a.btn:hover {
+  transform: none;
+  background-color: var(--purple);
+  color: var(--textBlack);
 }
 
 @media only screen and (max-width: 1024px) {
@@ -93,7 +86,7 @@ nav {
 		right: 2rem;
 	}
 
-	nav a {
+	nav a.navigation {
 		font-size: 1.5rem;
 	}
 

@@ -2,6 +2,7 @@ import React from 'react';
 import logo from '../img/logo.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "../css/BackNavbar.css";
+import '../css/variables.css';
 
 const BackNavbar = () => {
     return (
