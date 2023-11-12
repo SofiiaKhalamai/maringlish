@@ -25,17 +25,17 @@
   margin-left: 60px;
 }
 
-.col {
+.rule-column {
   margin-bottom: 50px;
 }
 
-.col h2 {
+.rule-column h2 {
   font-size: 22px;
   margin-bottom: 5px;
   font-weight: bold;
 }
 
-.col p {
+.rule-column p {
   text-align: justify;
 }
 
@@ -46,12 +46,13 @@
     margin-top: -100px;
   }
 
-  .col {
+  .rule-column {
     margin-bottom: 30px;
   }
 
   .image {
-    width: 100%;
+    width: 165px;
+    height: 150px;
     margin-right: 0;
     margin-left: 0;
   }
@@ -63,13 +64,21 @@
     margin-top: -80px;
   }
 
-  .col h2 {
+  .rule-column {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column-reverse; 
+  }
+
+  .rule-column h2 {
     font-size: 18px;
   }
 
   .image {
-    width: 100%;
+    width: 165px;
+    height: 150px;
     margin-right: 0;
     margin-left: 0;
+    margin-bottom: 150px;
   }
 }
