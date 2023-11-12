@@ -45,3 +45,26 @@
 .courses-link:hover::after {
   transform: scaleX(1);
 }
+
+@media (max-width: 768px) {
+  .p-with-top-margin {
+    margin-top: 50px;
+  }
+
+  .course-section {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 480) {
+
+  .course-section {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .p-with-top-margin {
+    margin-top: 50px;
+  }
+}
