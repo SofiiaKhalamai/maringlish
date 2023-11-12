@@ -136,7 +136,9 @@ const Feedbacks = () => {
                       <div>
                       <p>Англійська це моє головне хобі (та ключ до саморозвитку), але...</p>
                       {isMobile && (
-                        <button className="show-more" onClick={() => setShowFullContent(!showFullContent)}>
+                        <button className="show-more" onClick={(e) => {
+                          e.preventDefault();
+                          setShowFullContent(!showFullContent)}}>
                           show more pls 👉👈
                         </button>
                       )}
@@ -181,7 +183,9 @@ const Feedbacks = () => {
                       <div>
                       <p>Привіт,мене звати Аня! Англійська для мене-не робота, а стан...</p>
                       {isMobile && (
-                        <button className="show-more" onClick={() => setShowFullContent(!showFullContent)}>
+                        <button className="show-more" onClick={(e) => {
+                          e.preventDefault();
+                          setShowFullContent(!showFullContent)}}>
                           show more pls 👉👈
                         </button>
                       )}
@@ -229,7 +233,9 @@ const Feedbacks = () => {
                       <div>
                       <p>Hello✨ Я Анастейша, і я мрію стати адвокатесою та вільно володіти...</p>
                       {isMobile && (
-                        <button className="show-more" onClick={() => setShowFullContent(!showFullContent)}>
+                        <button className="show-more" onClick={(e) => {
+                          e.preventDefault();
+                          setShowFullContent(!showFullContent)}}>
                           show more pls 👉👈
                         </button>
                       )}
@@ -275,7 +281,9 @@ const Feedbacks = () => {
                       <div>
                       <p>Привітики, я Катя ✨<br/> Я вважаю, що вивчення англійської має бути цікавим...</p>
                       {isMobile && (
-                        <button className="show-more" onClick={() => setShowFullContent(!showFullContent)}>
+                        <button className="show-more" onClick={(e) => {
+                          e.preventDefault();
+                          setShowFullContent(!showFullContent)}}>
                           show more pls 👉👈
                         </button>
                       )}
@@ -322,7 +330,9 @@ const Feedbacks = () => {
                       <div>
                       <p>Привіт, мене звати Ріта. Вивчення різних мов завжди було моїм...</p>
                       {isMobile && (
-                        <button className="show-more" onClick={() => setShowFullContent(!showFullContent)}>
+                        <button className="show-more" onClick={(e) => {
+                          e.preventDefault();
+                          setShowFullContent(!showFullContent)}}>
                           show more pls 👉👈
                         </button>
                       )}
