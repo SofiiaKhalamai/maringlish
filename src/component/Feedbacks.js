@@ -89,7 +89,9 @@ const Feedbacks = () => {
                       <div>
                       <p>Привіт привіт, я та сама людина через яку ми тут всі зібралися...</p>
                       {isMobile && (
-                        <button className="show-more" onClick={() => setShowFullContent(!showFullContent)}>
+                        <button className="show-more" onClick={(e) => {
+                          e.preventDefault();
+                          setShowFullContent(!showFullContent)}}>
                           show more pls 👉👈
                         </button>
                       )}
