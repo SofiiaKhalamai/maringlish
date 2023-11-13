@@ -58,7 +58,7 @@
   }
 }
 
-@media (max-width: 480) {
+@media (max-width: 480px) {
   .container-rules {
     padding-top: 80px;
     margin-top: -80px;
@@ -67,7 +67,7 @@
   .rule-column {
     margin-bottom: 30px;
     display: flex;
-    flex-direction: column-reverse; 
+    flex-direction: column;
   }
 
   .rule-column h2 {

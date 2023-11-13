@@ -57,13 +57,23 @@
   }
 }
 
-@media (max-width: 480) {
+@media (max-width: 480px) {
   .course-section {
+    font-size: 16px;
     margin-left: 10px;
-    padding-right: 10px;
+    margin-right: 10px;
   }
 
   .p-with-top-margin {
     margin-top: 50px;
+  }
+
+  .custom-col {
+    border: 2px solid black;
+    margin-bottom: 20px; 
+    width: 30% !important;
+    border-radius: 80px; 
+    margin-left: 10px;
+    margin-right: 0;
   }
 }
