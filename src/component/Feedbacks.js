@@ -91,7 +91,7 @@ const Feedbacks = () => {
                       {isMobile && (
                         <button className="show-more" onClick={(e) => {
                           e.preventDefault();
-                          setShowFullContent(!showFullContent)}}>
+                          setShowFullContent(true)}}>
                           show more pls 👉👈
                         </button>
                       )}

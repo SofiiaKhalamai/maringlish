@@ -15,9 +15,9 @@ const Interactive=()=>{
         <div class="container text-center">
           <div class="row">
             <div class="col">
-              <video controls>
+              {/* <video controls>
                 <source src={video} type="video/mp4"></source>
-              </video>
+              </video> */}
             </div>
             <div class="col">
               <img className="info-icon" src={info} alt="info-icon" />
