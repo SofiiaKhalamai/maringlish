@@ -8,7 +8,7 @@ import { faPerson, faPeopleArrows, faPeopleGroup, faHeartMusicCameraBolt } from 
 const LessonCards = () => {
   return (
     <>
-      <div className='background'>
+      <div className='lesson-cards'>
         <div id="courses" className="container text-center course-section">
           <div className="row justify-content-center">
             <div className="col-md-3 custom-col">
