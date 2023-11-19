@@ -59,9 +59,12 @@
 
 @media (max-width: 480px) {
   .course-section {
-    font-size: 16px;
     margin-left: 10px;
     margin-right: 10px;
+  }
+
+  a.courses-link {
+    font-size: 15px;
   }
 
   .p-with-top-margin {

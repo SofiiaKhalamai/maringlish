@@ -11,9 +11,9 @@ const Footer=()=>{
   return(
     <>
     <div id='contacts' className='footer'>
-      <div className='sb__footer section__padding'>
-        <div className='sb__footer-links'>
-          <div className='sb__footer-links_div'>
+      <div className='content_footer'>
+        <div className='content_footer_links'>
+          <div className='content_footer_links_div'>
             <p>Контакт ас:</p>
             <p>
               <div className='socialmedia'>
@@ -34,11 +34,11 @@ const Footer=()=>{
             <p>+380737286157</p>
           </div>
 
-          <div className='sb__footer-links_div'>
-            <img src={logo} alt='logo' width="150" height="150"/>
+          <div className='content_footer_links_div'>
+            <img src={logo} alt='logo'/>
           </div>
 
-          <div className='sb__footer-links_div work_hours'>
+          <div className='content_footer_links_div'>
             <p>Робочі години:</p>
             <p>9:00-20:00 пн-пн</p>
             <p>10:00-15:00 сб-вс</p>
