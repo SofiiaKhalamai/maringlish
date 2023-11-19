@@ -25,7 +25,7 @@ const Rules = () => {
             </div>
           </div>
 
-          <div class="row justify-content-center">
+          <div class="row justify-content-start">
             <div class="rule-column col-6">
               <h2>Перенесення уроку</h2>
               <br />
@@ -53,7 +53,7 @@ const Rules = () => {
             </div>
           </div>
 
-          <div class="row justify-content-center">
+          <div class="row justify-content-start">
             <div class="rule-column col-6">
               <h2>Пакети навчання</h2>
               <br />
