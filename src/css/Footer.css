@@ -46,3 +46,19 @@ a {
 a:hover {
   transform: scale(1.2); 
 }
+
+@media (max-width: 480px) {
+
+  .sb__footer-links {
+    justify-content: start; 
+  }
+
+  .sb__footer {
+    display: flex;
+    flex-direction: row;
+  }
+
+	a {
+		font-size: 18px;
+	}
+}

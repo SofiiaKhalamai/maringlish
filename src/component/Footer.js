@@ -38,7 +38,7 @@ const Footer=()=>{
             <img src={logo} alt='logo' width="150" height="150"/>
           </div>
 
-          <div className='sb__footer-links_div'>
+          <div className='sb__footer-links_div work_hours'>
             <p>Робочі години:</p>
             <p>9:00-20:00 пн-пн</p>
             <p>10:00-15:00 сб-вс</p>
