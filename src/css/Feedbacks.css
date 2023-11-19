@@ -26,7 +26,7 @@
   z-index: -1; 
 }
 
-.feedback-details .show-more {
+.feedback-details .show-more, .show-less {
   background: none;
   border: none;
   color: var(--textBlack); 
