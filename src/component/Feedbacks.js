@@ -14,24 +14,22 @@ import comment_blue from '../img/feedbacks/4338295-3a93fcf9.png';
 import comment_purple from '../img/feedbacks/4338295-650ead52.png';
 import comment_yellow from '../img/feedbacks/4338295-e0705ab2.png'
 
-
 const Feedbacks = () => {
   const [showFullContent, setShowFullContent] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth <= 767); 
-      setShowFullContent(window.innerWidth >= 767);
-    };
+    
+    setIsMobile(window.innerWidth <= 767); 
+    setShowFullContent(window.innerWidth >= 767);
 
-    handleResize();
+    // handleResize();
 
-    window.addEventListener('resize', handleResize);
+    // window.addEventListener('resize', handleResize);
 
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
+    // return () => {
+    //   window.removeEventListener('resize', handleResize);
+    // };
   }, []);
 
   const settings = {
