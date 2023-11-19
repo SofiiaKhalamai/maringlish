@@ -5,7 +5,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 150px;
   padding: 0 2rem;
   background-color: #f6d1f1;
   z-index: 1;
@@ -26,7 +25,7 @@
 }
 
 #back-header img {
-  width: 150px;
+  width: 170px;
   height: 150px;
   margin-right: 1rem; 
 }
@@ -40,13 +39,17 @@
   }
 
   #back-header img {
-    width: 70px;
-    height: 70px;
+    width: 115px;
+    height: 95px;
     margin-top: 0.5rem;
   }
 
   #back-header a {
       margin-right: 1rem;
       margin-bottom: 1rem;
+  }
+
+  #back-header a {
+    font-size: 16px;
   }
 }

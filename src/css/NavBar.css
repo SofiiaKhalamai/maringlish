@@ -11,7 +11,7 @@ header {
 
 header img {
 	padding-left: 2rem;
-	width: 150px;
+	width: 170px;
   height: 150px; 
 	z-index: 3; 
 }
@@ -92,7 +92,7 @@ a.btn:hover {
 	}
 
 	header img {
-		width: 120px;
+		width: 140px;
 		height: 120px; 
 	}
 }
