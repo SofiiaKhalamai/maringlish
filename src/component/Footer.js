@@ -35,10 +35,6 @@ const Footer=()=>{
           </div>
 
           <div className='content_footer_links_div'>
-            <img src={logo} alt='logo'/>
-          </div>
-
-          <div className='content_footer_links_div'>
             <p>Робочі години:</p>
             <p>9:00-20:00 пн-пн</p>
             <p>10:00-15:00 сб-вс</p>

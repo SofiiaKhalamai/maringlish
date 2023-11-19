@@ -24,6 +24,8 @@
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .socialmedia { 
@@ -47,16 +49,7 @@ a:hover {
   transform: scale(1.2); 
 }
 
-.content_footer_links_div img {
-  width: 150px;
-  height: 150px;
-}
-
 @media (max-width: 480px) {
-
-  .content_footer_links {
-    justify-content: start; 
-  }
 
   .content_footer {
     display: flex;
@@ -65,10 +58,5 @@ a:hover {
 
 	.footer { 
     font-size: 15px;
-  }
-
-  .content_footer_links_div img {
-    width: 90px;
-    height: 90px;
   }
 }
