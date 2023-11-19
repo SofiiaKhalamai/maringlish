@@ -116,7 +116,8 @@ const CoursesInfo=()=>{
         <div className="course-slide">
           <div className="course-content">
             <div className="course-image">
-              <h3>Великі групи(8-10 людей)</h3>
+              <h3>Великі групи</h3>
+              <h3>(8-10 людей)</h3>
               <br />
               <img className="course-image" src={bigGroup} alt="" />
               <p>Доєднатися до курсу!</p>
@@ -315,7 +316,8 @@ const CoursesInfo=()=>{
         <div className="course-slide">
           <div className="course-content">
             <div className="course-image">
-              <h3>Speaking Club(6-10 людей)</h3>
+              <h3>Speaking Club</h3>
+              <h3>(6-10 людей)</h3>
               <br />
               <img className="course-image" src={speakingClub} alt="" />
               <p>Доєднатися до Speaking Club!</p>
