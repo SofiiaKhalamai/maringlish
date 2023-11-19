@@ -10,7 +10,7 @@
 
 .wavy-line {
   height: 50px;
-  width: 100%;
+  width: 100vw;
   background-image: url('../img/wavy-line.png'); 
   background-repeat: repeat-x;
   background-size: contain;

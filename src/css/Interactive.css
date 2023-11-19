@@ -53,7 +53,7 @@ video {
 
 @media (max-width: 768px) {
   video {
-    /* width: 100%; 
+    /* width: 100vw; 
     height: auto;  */
     width: 100px; 
     height: 100px; 

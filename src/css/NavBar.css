@@ -1,7 +1,7 @@
 header {
 	font-size: 22px;
-	/* position: fixed; */
-	width: 100%;
+	position: fixed;
+	width: 100vw;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -54,7 +54,7 @@ a.btn:hover {
   color: var(--textBlack);
 }
 
-@media only screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
 	header .nav-btn {
 		visibility: visible;
 		opacity: 1;
@@ -95,7 +95,7 @@ a.btn:hover {
 @media (max-width: 480px) {
 
 	a.btn {
-		font-size: 11px;
+		font-size: 18px;
 		transform: none;
 		background-color: var(--purple); 
 		color: var(--textBlack); 

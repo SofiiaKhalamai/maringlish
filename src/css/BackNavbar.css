@@ -1,7 +1,7 @@
 #back-header {
   font-size: 22px;
-  position: fixed;
-  width: 100%;
+  position: relative;
+  width: auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
