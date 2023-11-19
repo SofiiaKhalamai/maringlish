@@ -17,6 +17,7 @@ const Interactive=()=>{
         <div class="container text-center">
           <div class="row">
             <div class="col">
+            <p className='interactive-info'>test</p>
               <YouTube iframeClassName='video' videoId={videoId}/>
             </div>
             <div class="col">
