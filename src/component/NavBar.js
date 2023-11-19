@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from 'react';
+import React, { useRef, useState } from 'react';
 import logo from '../img/logo.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FaBars, FaTimes } from 'react-icons/fa';
@@ -8,7 +8,6 @@ import '../css/variables.css';
 function Navbar() {
   const navRef = useRef();
   const [isNavOpen, setIsNavOpen] = useState(false);
-  const [isScrolled, setIsScrolled] = useState(false);
 
   const showNavbar = () => {
     setIsNavOpen(!isNavOpen);
@@ -18,20 +17,8 @@ function Navbar() {
     setIsNavOpen(false);
   };
 
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 0);
-    };
-
-    window.addEventListener('scroll', handleScroll);
-
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
-
   return (
-    <header className={isScrolled ? 'scrolled' : ''}>
+    <header>
       <a href="/">
         <img src={logo} className="d-inline-block align-middle mr-4" alt="Logo" />
       </a>

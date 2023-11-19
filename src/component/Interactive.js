@@ -1,11 +1,13 @@
 import React from 'react';
+import YouTube from 'react-youtube';
 import heart from '../img/heart.png';
 import info from '../img/info.png';
-import video from '../video/interactive.mp4';
 import "../css/Interactive.css";
 import '../css/variables.css';
 
 const Interactive=()=>{
+  const videoId = 'WxXXCB_n2gY';
+
   return(
     <>
     <div className='container-interactive'>
@@ -15,9 +17,7 @@ const Interactive=()=>{
         <div class="container text-center">
           <div class="row">
             <div class="col">
-              {/* <video controls>
-                <source src={video} type="video/mp4"></source>
-              </video> */}
+              <YouTube iframeClassName='video' videoId={videoId}/>
             </div>
             <div class="col">
               <img className="info-icon" src={info} alt="info-icon" />

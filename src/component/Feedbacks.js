@@ -73,12 +73,13 @@ const Feedbacks = () => {
                         🔹Рівень B2: Вт 19:00 Чт 19:00</p>
 
                       <p>Місць на індивідуальні заняття немає ❌</p>
-
+                      {isMobile && (
                       <button className="show-less" onClick={(e) => {
                           e.preventDefault();
                           setShowFullContent(false)}}>
                           show less pls 👉👈
                         </button>
+                      )}
                     </div>
                     ) : (
                       <div class="tutor_description">
@@ -126,11 +127,13 @@ const Feedbacks = () => {
                       🔹Рівень А1: Пн 11.00 Ср 11.00</p>
 
                       <p>Місць на індивідуальні заняття немає 🥲❌</p>
+                      {isMobile && (
                       <button className="show-less" onClick={(e) => {
                           e.preventDefault();
                           setShowFullContent(false)}}>
                           show less pls 👉👈
                         </button>
+                      )}
                     </div>
                     ) : (
                       <div class="tutor_description">
@@ -178,11 +181,13 @@ const Feedbacks = () => {
                       🔹Рівень А2: Пн 16:00 Чт 15:00</p>  
                       
                       <p>Місць на індивідуальні заняття немає ❌</p> 
+                      {isMobile && (
                       <button className="show-less" onClick={(e) => {
                           e.preventDefault();
                           setShowFullContent(false)}}>
                           show less pls 👉👈
                         </button>
+                      )}
                     </div>
                     ) : (
                       <div class="tutor_description">
@@ -233,11 +238,13 @@ const Feedbacks = () => {
 
                       <p>Місця на індивідуальні заняття:<br/>
                       🔹Вт, Ср, Пт з 16:00; Нд</p>
+                      {isMobile && (
                       <button className="show-less" onClick={(e) => {
                           e.preventDefault();
                           setShowFullContent(false)}}>
                           show less pls 👉👈
                         </button>
+                      )}
                     </div>
                     ) : (
                       <div class="tutor_description">
@@ -286,11 +293,13 @@ const Feedbacks = () => {
                       
                       <p>Місця на індивідуальні заняття:<br/>
                       🔹Ср 11:00, Сб, Нд</p>
+                      {isMobile && (
                       <button className="show-less" onClick={(e) => {
                           e.preventDefault();
                           setShowFullContent(false)}}>
                           show less pls 👉👈
                         </button>
+                      )}
                     </div>
                     ) : (
                       <div class="tutor_description">
@@ -340,11 +349,13 @@ const Feedbacks = () => {
                       
                       <p>Місця на індивідуальні заняття:<br/>
                       🔹Пн-Пт 16:00,17:00,18:00, 19:00</p>
+                      {isMobile && (
                       <button className="show-less" onClick={(e) => {
                           e.preventDefault();
                           setShowFullContent(false)}}>
                           show less pls 👉👈
                         </button>
+                      )}
                     </div>
                     ) : (
                       <div class="tutor_description">

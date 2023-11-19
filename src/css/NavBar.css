@@ -13,6 +13,7 @@ header img {
 	padding-left: 2rem;
 	width: 150px;
   height: 150px; 
+	z-index: 3; 
 }
 
 nav a.navigation {
@@ -73,6 +74,7 @@ a.btn:hover {
 		width: 100vw;
 		gap: 1.5rem;
 		transition: 1s;
+		z-index: 0;
 	}
 
 	header .responsive_nav {
