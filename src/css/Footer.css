@@ -51,6 +51,15 @@ a:hover {
 
 @media (max-width: 480px) {
 
+  .content_footer_links {
+    justify-content: center;  
+  }
+
+  .content_footer_links_div { 
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
   .content_footer {
     display: flex;
     flex-direction: row;
