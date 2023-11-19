@@ -70,7 +70,7 @@ a.btn:hover {
 		justify-content: center;
 		background-color: var(--mainColor);
 		height: 100%;
-		width: 100%;
+		width: 100vw;
 		gap: 1.5rem;
 		transition: 1s;
 	}
