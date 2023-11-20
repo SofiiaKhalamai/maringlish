@@ -6,7 +6,7 @@ import "../css/Interactive.css";
 import '../css/variables.css';
 
 const Interactive=()=>{
-  const videoId = 'WxXXCB_n2gY';
+  const videoId = '2_YIRN2Ciag';
 
   return(
     <>
