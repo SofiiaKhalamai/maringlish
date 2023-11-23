@@ -24,7 +24,7 @@
 
 .course-image {
   margin-right: 50px;
-  z-index: -1; 
+  z-index: 1; 
 }
 
 .important-icon {
@@ -37,6 +37,14 @@
 }
 
 a.btn {
+  transform: none;
+  background-color: var(--purple);
+  border-color: var(--purple);
+  color: var(--textBlack);
+  z-index: 1;
+}
+
+a.btn:hover {
   transform: none;
   background-color: var(--purple);
   border-color: var(--purple);
@@ -135,16 +143,6 @@ a.btn {
   margin-right: 100px;
   margin-bottom: 0;
   padding-bottom: 50px; 
-}
-
-.button-container a.btn {
-  transform: none;
-  background-color: var(--purple); 
-  color: var(--textBlack); 
-}
-
-.button-container a.btn:hover {
-  background-color: var(--purple)
 }
 
 @media (max-width: 768px) {
