@@ -42,14 +42,15 @@ nav {
 	align-items: center;
 }
 
-a.btn {
+header a.btn {
 	font-size: 22px;
   transform: none;
   background-color: var(--purple); 
   color: var(--textBlack); 
+	z-index: 0;
 }
 
-a.btn:hover {
+header a.btn:hover {
   transform: none;
   background-color: var(--purple);
   color: var(--textBlack);
@@ -79,6 +80,7 @@ a.btn:hover {
 
 	header .responsive_nav {
 		transform: translateY(100vh);
+		z-index: 1;
 	}
 
 	nav .nav-close-btn {
@@ -99,7 +101,7 @@ a.btn:hover {
 
 @media (max-width: 480px) {
 
-	a.btn {
+	header a.btn {
 		font-size: 18px;
 		transform: none;
 		background-color: var(--purple); 
